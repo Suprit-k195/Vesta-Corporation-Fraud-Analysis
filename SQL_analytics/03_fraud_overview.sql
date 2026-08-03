@@ -2,7 +2,7 @@
 -- 03_FRAUD_OVERVIEW.SQL: Portfolio Baselines & Category Risk Dispersion
 -- ==============================================================================
 
--- 3.1 Macro portfolio overall baseline fraud rate
+-- 3.1 Overall fraud rate
 SELECT 
     COUNT(*) AS total_transactions,
     SUM(isFraud) AS total_fraud_transactions,
